@@ -9,6 +9,6 @@
 
 ---
 **Reference**
-> Database systems, design, implementation and management
-
-> USC csci 585
+> Database systems, design, implementation and management <br/>
+> Taming Big Data with Apache Spark and Python (Udemy) <br/>
+> USC CSCI 585 <br/>
