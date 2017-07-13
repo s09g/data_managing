@@ -11,10 +11,10 @@ def countCoOccurences(line):
 conf = SparkConf().setMaster("local").setAppName("PopularHero")
 sc = SparkContext(conf = conf)
 
-names = sc.textFile("file:///Users/zhangshiqiu/workspace/github/data_managing/spark/marvel-names.txt")
+names = sc.textFile("file:///marvel-names.txt")
 namesRDD = names.map(parseNames)
 
-lines = sc.textFile("file:///Users/zhangshiqiu/workspace/github/data_managing/spark/marvel-graph.txt")
+lines = sc.textFile("file:///marvel-graph.txt")
 pairings = lines.map(countCoOccurences)
 
 totalFriendsByCharacter = pairings.reduceByKey(lambda x, y: x + y)
