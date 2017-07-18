@@ -5,7 +5,10 @@
 + [x] Spatial Data
 + [x] Apache Pig
 + [x] TensorFlow
-+ [ ] Spark
++ [x] Spark
++ [ ] Spark SQL
++ [ ] Spark DataFrame
++ [ ] Spark MLLib
 
 ---
 **Reference**
