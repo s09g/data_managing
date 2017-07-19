@@ -6,8 +6,8 @@
 + [x] Apache Pig
 + [x] TensorFlow
 + [x] Spark
-+ [ ] Spark SQL
-+ [ ] Spark DataFrame
++ [x] Spark SQL
++ [x] Spark DataFrame
 + [ ] Spark MLLib
 
 ---
