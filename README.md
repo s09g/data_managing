@@ -8,7 +8,7 @@
 + [x] Spark
 + [x] Spark SQL
 + [x] Spark DataFrame
-+ [ ] Spark MLLib
++ [x] Spark MLLib
 
 ---
 **Reference**
